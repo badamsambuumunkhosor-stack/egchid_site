@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Erhiin biceg queen😇</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>Erhiin biceg queen🎉</h1>
+    <p>Egchee, tand zoriulsan neg yum bii hha😂.</p>
+    <button class="btn" id="openBtn">Neegeerei hha😂</button>
+
+    <div id="choices" class="hidden">
+      <p>Negiig ni songoogood uzeerei:</p>
+      <a class="btn" href="letter1.html">Songolt 1</a>
+      <a class="btn" href="letter2.html">Songolt 2</a>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("openBtn").addEventListener("click", function () {
+      this.classList.add("hidden");
+      document.getElementById("choices").classList.remove("hidden");
+    });
+  </script>
+</body>
+</html>
